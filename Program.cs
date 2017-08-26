@@ -10,6 +10,7 @@ namespace FileSplitter
         {
             if (args.Length < 2)
             {
+                Console.WriteLine("引数には、ファイルのパスと分割サイズが必要です。");
                 return;
             }
             var sourcePath = args[0];
